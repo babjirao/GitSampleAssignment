@@ -14,6 +14,8 @@
 		B107134226F7B24400F3D6AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B107134126F7B24400F3D6AF /* Assets.xcassets */; };
 		B107134526F7B24400F3D6AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B107134326F7B24400F3D6AF /* LaunchScreen.storyboard */; };
 		B107134D26F7B3DB00F3D6AF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B107134C26F7B3DB00F3D6AF /* Constants.swift */; };
+		B107135126F7BFAB00F3D6AF /* GitCommitsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B107134F26F7BFAB00F3D6AF /* GitCommitsTableViewCell.xib */; };
+		B107135226F7BFAB00F3D6AF /* GitCommitsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B107135026F7BFAB00F3D6AF /* GitCommitsTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		B107134426F7B24400F3D6AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B107134626F7B24400F3D6AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B107134C26F7B3DB00F3D6AF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B107134F26F7BFAB00F3D6AF /* GitCommitsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GitCommitsTableViewCell.xib; sourceTree = "<group>"; };
+		B107135026F7BFAB00F3D6AF /* GitCommitsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitCommitsTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 		B107133726F7B24400F3D6AF /* GitAssignment */ = {
 			isa = PBXGroup;
 			children = (
+				B107134E26F7BF7700F3D6AF /* CustomUITableViewCells */,
 				B107133826F7B24400F3D6AF /* AppDelegate.swift */,
 				B107133A26F7B24400F3D6AF /* SceneDelegate.swift */,
 				B107133C26F7B24400F3D6AF /* ViewController.swift */,
@@ -68,6 +73,15 @@
 				B107134626F7B24400F3D6AF /* Info.plist */,
 			);
 			path = GitAssignment;
+			sourceTree = "<group>";
+		};
+		B107134E26F7BF7700F3D6AF /* CustomUITableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				B107135026F7BFAB00F3D6AF /* GitCommitsTableViewCell.swift */,
+				B107134F26F7BFAB00F3D6AF /* GitCommitsTableViewCell.xib */,
+			);
+			path = CustomUITableViewCells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,6 +144,7 @@
 			files = (
 				B107134526F7B24400F3D6AF /* LaunchScreen.storyboard in Resources */,
 				B107134226F7B24400F3D6AF /* Assets.xcassets in Resources */,
+				B107135126F7BFAB00F3D6AF /* GitCommitsTableViewCell.xib in Resources */,
 				B107134026F7B24400F3D6AF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,6 +158,7 @@
 			files = (
 				B107133D26F7B24400F3D6AF /* ViewController.swift in Sources */,
 				B107133926F7B24400F3D6AF /* AppDelegate.swift in Sources */,
+				B107135226F7BFAB00F3D6AF /* GitCommitsTableViewCell.swift in Sources */,
 				B107133B26F7B24400F3D6AF /* SceneDelegate.swift in Sources */,
 				B107134D26F7B3DB00F3D6AF /* Constants.swift in Sources */,
 			);
